@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #0073ff;
-    --color-white: #e9e9e9;
-    --color-black: #233c51;
-    --color-black-1: #233c51;
+    --color-primary: rgb(0, 115, 255);
+    --color-white: rgb(233, 233, 233);
+    --color-black: rgb(35, 60, 81);
+    --color-black-1: rgb(35, 60, 81);
   }
   
   * {
@@ -14,7 +14,7 @@
   
   body {
     font-family: sans-serif;
-   background-color: #f5e1f4;
+   background-color: rgb(245, 225, 244);
   }
   
   .logo {
@@ -112,7 +112,7 @@
   
   .text-box{
     width: 50%;
-    color:#233c51;
+    color:rgb(35, 60, 81);
     position: absolute;
     top: 30%;
     left: 30%;
@@ -126,40 +126,40 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0 40px;
     font-size: 30px;
-    color: #4e6374;
+    color: rgb(78, 99, 116);
   }
   .login {
     display: inline-block;
     text-decoration: none;
-    color: #233c51;
-    border: 1px solid #233c51;
+    color: rgb(35, 60, 81);
+    border: 1px solid rgb(35, 60, 81);
     padding: 12px 34px;
     font-size: 30px;
-    background: #f1b534;
+    background: rgb(241, 181, 52);
     position: relative;
     cursor: pointer;
   }
   .login:hover{
-    color: #f1b534;
-    border: 1px solid #f1b534;
-    background: #233c51;
+    color: rgb(241, 181, 52);
+    border: 1px solid rgb(241, 181, 52);
+    background: rgb(35, 60, 81);
     transition: 1s;
   }
   .title{
-    color: #233c51;
+    color: rgb(35, 60, 81);
     font-size: 30px;
     
   }
 
 .info h1{
-    color: #233c51;
+    color: rgb(35, 60, 81);
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     
 }
 .info p {
-    color: #4e6374;
+    color: rgb(78, 99, 116);
     font-size:30px ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     text-align: center;
@@ -172,7 +172,7 @@
 }
 .course-col{
     flex-basis: 31%;
-    background:#ffdf9a;
+    background:rgb(255, 223, 154);
     border-radius: 10;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -182,7 +182,7 @@
 }
 .course-col h3{
     font-size: 30;
-    color:#0c151d 
+    color:rgb(12, 21, 29)
 }
 .course-col p{
     font-size: 20;
